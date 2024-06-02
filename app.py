@@ -6,8 +6,8 @@ from langchain.prompts import (
     ChatPromptTemplate,
     HumanMessagePromptTemplate,
     MessagesPlaceholder,
-    SystemMessagePromptTemplate,
-)
+    SystemMessagePromptTemplate,)
+
 import streamlit as st
 import os
 tool = YouTubeSearchTool()
