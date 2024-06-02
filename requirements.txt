@@ -2,3 +2,4 @@ langchain_community
 langchain_google_genai
 youtube-search==2.1.2
 youtube-transcript-api==0.6.2
+pytube
