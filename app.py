@@ -43,7 +43,7 @@ else:
     prompt = ChatPromptTemplate(
         messages=[
 SystemMessagePromptTemplate.from_template(
-"""You are a helpful assistant.Your task is to answer user questions based on this Youtube video trancript, delimited with ````. If a user asks about any question about it, please assist them courteously and always give your best effort.Please do your best because it is very important to my career.
+"""You are a helpful assistant.Your task is to answer user questions based on this Youtube video trancript, delimited with ```. If a user asks about any question about it, please assist them courteously and always give your best effort.Please do your best because it is very important to my career.
 > ```{transcript}```"""),
     MessagesPlaceholder(variable_name="chat_history"),
     HumanMessagePromptTemplate.from_template("{question}")])
